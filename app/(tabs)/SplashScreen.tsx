@@ -7,7 +7,7 @@ const SplashScreen: React.FC = () => {
 
   useEffect(() => {
     const timer = setTimeout(() => {
-      router.push('/LoginScreen');
+      router.push('/SunriseScreen');
     }, 3000); // Splash screen akan ditampilkan selama 3 detik
 
     return () => clearTimeout(timer); // Membersihkan timer saat komponen tidak digunakan

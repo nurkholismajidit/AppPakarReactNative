@@ -23,10 +23,10 @@
 //   return <Redirect href="/(tabs)/SunriseScreen" />;
 // }
 
+// Done
 import React, { useEffect, useState } from 'react';
 import { useRouter } from 'expo-router'; // Import useRouter
 import WelcomeSlider from './WelcomeSlider'; // Import WelcomeSlider
-import SplashScreen from './SplashScreen';
 
 export default function Index() {
   const [showSplash, setShowSplash] = useState(true);
@@ -42,10 +42,6 @@ export default function Index() {
 
     return () => clearTimeout(timer); // Bersihkan timer jika komponen dilepas
   }, []);
-
-  // if (showSplash) {
-  //   return <SplashScreen />; // Tampilkan Splash Screen
-  // }
 
   return null; // Tidak perlu render apa-apa setelah splash screen
 }

@@ -19,13 +19,13 @@ const WelcomeSlider = () => {
       key: '2',
       title: 'Waktu yang Akurat',
       text: 'Dapatkan waktu matahari terbit, terbenam, dan twilight hanya dengan sekali klik.',
-      animation: require('../(tabs)/asset/slide1.json'), // Ganti dengan path animasi Lottie Anda
+      animation: require('../(tabs)/asset/slide4.json'), // Ganti dengan path animasi Lottie Anda
     },
     {
       key: '3',
       title: 'Tetap Terinformasi',
       text: 'Periksa waktu secara rutin dan tetap update tentang panjang hari dan waktu twilight.',
-      animation: require('../(tabs)/asset/slide3.json'), // Ganti dengan path animasi Lottie Anda
+      animation: require('../(tabs)/asset/slide5.json'), // Ganti dengan path animasi Lottie Anda
     },
   ];
 
